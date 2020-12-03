@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<quests>
+  
+  <quest Name="King's Hope" Level="3" 
+         Accomplishment="You brought King one of the gauntlets that belonged to his dear friend."
+         Hagiograph="Inside a temple of water and vine, =name= taught an old man the value of chrome."
+         HagiographCategory="Trysts">
+    
+    <step Name="Find the Campsite" XP="0">
+      <text>Travel 4 parasangs east of Red Rock.</text>
+    </step>
+
+    <step Name="Investigate the Campsite" XP="100">
+      <text>Look for something to bring back to King.</text>
+    </step>
+
+    <step Name="Return to King" XP="75">
+      <text>Bring the unique glove to King.</text>
+    </step>
+
+  </quest>
+</quests>

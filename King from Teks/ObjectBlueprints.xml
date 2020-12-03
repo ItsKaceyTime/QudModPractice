@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="KaceyMod_King" Inherits="NPC">
+    <part Name="Render" DisplayName="King" Tile="creatures/kaceymod_king.png" ColorString="&amp;B" TileColor="&amp;O" DetailColor="w" RenderString="w" />
+    <part Name="Description" Short="Before you stands a tall, muscular man with the head of a vicious-looking spotted cat and a matching tail. It's difficult to tell if he's wearing an intimidating mask or if this is his natural visage. You refrain from asking to avoid earning his ire." />
+    <part Name="ConversationScript" ConversationID="KaceyMod_King" />
+    <part Name="Brain" Wanders="false" Factions="Joppa-50" />
+    <stat Name="Strength" Value="24" />
+    <stat Name="Agility" Value="18" />
+    <stat Name="Toughness" Value="19" />
+    <stat Name="Intelligence" Value="16" />
+    <stat Name="Willpower" Value="17" />
+    <stat Name="Ego" Value="19" />
+    <stat Name="Hitpoints" Value="150" />
+    <inventoryobject Blueprint="Vast Fist" Number="2" />
+    <inventoryobject Blueprint="Spiked Gauntlets" Number="1" />
+    <inventoryobject Blueprint="Steel Boots" Number="1" />
+    <skill Name="Cudgel_Slam" />
+    <mutation Name="HeightenedStrength" Level="4" />
+    <stat Name="Level" Value="20" />
+    <property Name="Genotype" Value="Mutated Human" />
+    <part Name="GivesRep" />
+    <tag Name="staticFaction1" Value="Cats,friend,leaving milk out for them" />
+    <tag Name="NoHateFactions" Value="Joppa,Fish,Dromad,Cats" />
+    <xtagGrammar Proper="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    <xtagWaterRitual SellSkill="false" />
+    <tag Name="Gender" Value="male" />
+  </object>
+  <object Name="KaceyMod_EE" Inherits="Sign">
+    <part Name="Render" DisplayName="owo" Tile="items/kaceymod_owo.png" ColorString="&amp;B" TileColor="&amp;Y" DetailColor="R" RenderString="w" Occluding="false" />
+    <part Name="Description" Short="An ethereal creature with a prideful aura." />
+    <part Name="Chat" Says="&amp;cT&amp;Mr&amp;Ya&amp;Mn&amp;cs&amp;k &amp;cP&amp;Mr&amp;Yi&amp;Md&amp;Ce &amp;Y:)&amp;G" ShowInShortDescription="false" />
+    <part Name="Physics" Takeable="false" />
+    <stat Name="AV" Value="100" />
+    <stat Name="Hitpoints" Value="9999" />
+  </object>
+  <object Name="KaceyMod_QuestGlove" Inherits="Item">
+    <part Name="Render" DisplayName="Damaged Gauntlet" Tile="items/kaceymod_questglove.png" ColorString="&amp;Y" TileColor="&amp;K" DetailColor="R" RenderString="004" RenderLayer="5" />
+    <part Name="Physics" Category="Quest Items" />
+    <part Name="Description" Short="A steel gauntlet, showing signs of wear and tear. The second gauntlet is nowhere to be found. The letters 'AK' are engraved on the wrist." />
+    <tag Name="ExcludeFromDynamicEncounters" />
+    <tag Name="NoSparkingQuest" />
+  </object>
+  <object Name="KaceyMod_Campsite" Inherits="Terrain">
+    <part Name="Render" DisplayName="BIG OLE PLACEHOLDER!!!!!" RenderString="239" ColorString="&amp;w^k" Tile="Terrain/Placeholder.png" />
+    <part Name="TerrainTravel" Segments="1250" TravelClass="Survival_DesertCanyonSurvival" />
+    <part Name="Description" Short="Long ago the rivers themselves were ravenous, and they feasted on shale and limestone before taking bloated respite in the Great Salt Sea. Now the fissure-wounds have rotted to crimson and salt." />
+    <tag Name="Gender" Value="plural" />
+    <xtagGrammar iArticle="some" />
+    <tag Name="Immutable" Value="1}" />
+    <tag Name="LairOwnerTable" Value="LairOwners_DesertCanyon" />
+    <tag Name="Terrain" Value="DesertCanyon" />
+    <tag Name="RegionTier" Value="1" />
+  </object>
+  </objects>

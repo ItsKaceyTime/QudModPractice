@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+  <!-- KaceyMod_King-->
+  <conversation ID="KaceyMod_King">
+    <node ID="Start">
+      <text>
+*gentle snarl* Greetings, =pronouns.formalAddressTerm=. How do you fare?
+      </text>
+      <choice GotoID="Who">I am well. Please, tell me about yourself.</choice>
+      <choice GotoID="What">What led you to Joppa?</choice>
+      <choice GotoID="End">Live and drink, =pronouns.formalAddressTerm=.</choice>
+    </node>
+    <node ID="Who">
+      <text>
+They call me King, though I am no royalty. This village offered hospitality and kindness when I needed it most, so I'm currently offering them my services as appreciation.
+      </text>
+      <choice GotoID="What">A pleasure to meet you, King. What led you to Joppa?</choice>
+      <choice GotoID="Start">I wanted to discuss something else.</choice>
+      <choice GotoID="End">Live and drink, =pronouns.formalAddressTerm=.</choice>
+    </node>
+    <node ID="What">
+      <text>
+My closest friend and I were hired to escort a caravan through the nearby canyons to Kyakukya. We'd just passed Red Rock when we were accosted by a pair of bipedal bears. The encounter was hectic, to say the least, and I ended up wounded and separated from the rest of the group. Next thing I know, I'm being tended to here in Joppa. I'm not sure what happened to my friend or the caravan.
+      </text>
+      <choice GotoID="Quest">Anyway I can help?</choice>
+      <choice GotoID="Who">Please tell me about yourself.</choice>
+      <choice GotoID="Start">I wanted to discuss something else.</choice>
+      <choice GotoID="End">Live and drink, =pronouns.formalAddressTerm=.</choice>
+    </node>
+    <node ID="Quest">
+      <text>
+Why, that would be immensely appreciated. If you're certain, you'll find where we were attacked 3 parasangs east of Red Rock. If you can find a sign that anyone survived, bring it back here. Please, be careful.
+      </text>
+      <choice GotoID="End" StartQuest="King's Hope"> I will return soon.</choice>
+      <choice GotoID="End">Apologies, King. I'll have to help you another time.</choice>
+    </node>
+  </conversation>
+  <conversation ID="KaceyMod_EE">
+    <node ID="Start">
+      <text>
+&amp;cT&amp;Mr&amp;Ya&amp;Mn&amp;cs&amp;k &amp;cP&amp;Mr&amp;Yi&amp;Md&amp;Ce &amp;Y:)&amp;G
+      </text>
+      <choice GotoID="End">Yo, hell yeah.</choice>
+    </node>
+  </conversation>
+</conversations>
