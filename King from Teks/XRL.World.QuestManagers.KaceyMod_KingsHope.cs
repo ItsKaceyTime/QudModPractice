@@ -11,7 +11,7 @@ public class KaceyMod_KingsHope : QuestManager
     {
         XRLCore.Core.Game.Player.Body.Inventory.ForeachObject(delegate(GameObject GO)
         {
-            if (GO.FindObjectInInventory("KaceyMod_QuestGlove"))
+            if (GO.HasObjectInInventory("KaceyMod_QuestGlove"))
             {
                 XRLCore.Core.Game.FinishQuestStep("King's Hope", "Find the Campsite");
                 XRLCore.Core.Game.FinishQuestStep("King's Hope", "Investigate the Campsite");
@@ -42,13 +42,13 @@ public class KaceyMod_KingsHope : QuestManager
         if (E.ID == "Took")
         {
             GameObject gameObjectParameter = E.GetGameObjectParameter("Object");
-            if (gameObjectParameter.HasPart("KaceyMod_QuestGlove"))
+            if (gameObjectParameter.HasObjectInInventory("KaceyMod_QuestGlove"))
             {
                 XRLCore.Core.Game.FinishQuestStep("King's Hope", "Return to King");
             }
                 XRLCore.Core.Game.Player.Body.Inventory.ForeachObject(delegate(GameObject GO)
                 {
-                    if (GO.HasPart("KaceyMod_QuestGlove"))
+                    if (GO.HasObjectInInventory("KaceyMod_QuestGlove"))
                     {
                         XRLCore.Core.Game.FinishQuestStep("King's Hope", "Investigate the Campsite");
                         return false;
