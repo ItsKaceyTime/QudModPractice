@@ -1,0 +1,406 @@
+Mono path[0] = 'C:/SteamLibrary/steamapps/common/Caves of Qud/CoQ_Data/Managed'
+Mono config path = 'C:/SteamLibrary/steamapps/common/Caves of Qud/MonoBleedingEdge/etc'
+Initialize engine version: 2020.1.2f1 (7b32bc54ba47)
+[Subsystems] Discovering subsystems at path C:/SteamLibrary/steamapps/common/Caves of Qud/CoQ_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   (null)
+    VRAM:     3072 MB
+    Driver:   27.20.12029.1000
+Begin MonoManager ReloadAssembly
+- Completed reload, in  5.708 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 16.261100 ms
+<color=#AAAAAA>[Info] GameLogger initialized...</color>
+<color=orange>Logger..cctor</color>
+<color=red></color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+<color=#AAAAAA>[Info] TraceLogger initialized...</color>
+<color=orange>Logger..cctor</color>
+<color=red></color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+<color=#AAAAAA>[Info] Starting up logger...</color>
+<color=orange>GameManager.Awake</color>
+<color=red></color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Startup time: Thursday, December 3, 2020 at 12:37:55 PM 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Version: 2.0.201.54 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Platform: WindowsPlayer 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+System Language: English 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unity Version: 2020.1.2f1 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unity Reported Version: 2.0.4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+UI manager has a non-window child: CommonDialogs DialogManager 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+accessign optiosn pre-init: MessageLogWindow/Opacity 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Requesting stats... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Subscribed workshop items: 2 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Checking workshop item 1683847053 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Item subscribed: C:\SteamLibrary\steamapps\workshop\content\333640\1683847053 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loaded: Hearthpyre 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Checking workshop item 1804499742 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Item subscribed: C:\SteamLibrary\steamapps\workshop\content\333640\1804499742 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loaded: QudUX 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Found mod: Hearthpyre 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+{
+    "id": "Hearthpyre",
+    "loadorder": -99,
+    "title": "{{C-B-c alternation|Hearthpyre}}",
+    "description": "Put an end to nomadic living, build your own bungalow.\n\nUse the powerful xyloschemer to plot out blueprints for a cavalcade of structures, furniture and decor.\n\nLearn the forgotten skills of governing and claim your own piece of saltland, corraling hapless settlers into their own homes where they'll go about arduous tasks like sleeping and smoking hookahs.",
+    "tags": "",
+    "version": "2.0.4",
+    "author": "{{o|Armithaig}}",
+    "previewImage": "icon.png"
+} 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Found mod: King from Teks 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Found mod: QudUX 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+{
+    "id": "QudUX",
+    "loadorder": 0,
+    "title": "{{W|QudUX}}",
+    "description": "QudUX improves the game's menus and adds subtle quality of life features.\n\n• Automatically track\n  visited locations in\n  your journal\n\n• Find village quest\n  givers more easily\n\n• Customize your sprite\n  during character\n  creation\n\n• Enjoy revamped menus:\n   • Cooking menu\n   • Inventory\n   • Build library\n   • Game stats\n\n        And more...",
+    "tags": "World,UX,Cosmetic",
+    "version": "2.0",
+    "author": "egocarib",
+    "previewImage": "QudUX.png"
+} 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Unapplying Harmony patches 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Unapplying Harmony patches in 0ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Building script mods 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+MODERROR  - Mod Error King from Teks: <...>\Mods\King from Teks\XRL.World.QuestManagers.KaceyMod_KingsHope.cs(14,17): error CS0029: Cannot implicitly convert type 'XRL.World.GameObject' to 'bool' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Mod Warning Hearthpyre: <...>\steamapps\workshop\content\333640\1683847053\CS\UI\Elements\MusicPicker.cs(23,29): warning CS0067: The event 'MusicPicker.Reload' is never used 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Mod Warning Hearthpyre: <...>\steamapps\workshop\content\333640\1683847053\CS\UI\View.cs(34,29): warning CS0067: The event 'View.Reload' is never used 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Mod Warning Hearthpyre: <...>\steamapps\workshop\content\333640\1683847053\CS\UI\Elements\IconPicker.cs(30,29): warning CS0067: The event 'IconPicker.Reload' is never used 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Loading genders 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Loading genders in 51ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Loading PronounSets.xml 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Loading PronounSets.xml in 51ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Loading Display.txt 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Error loading Display.txt: System.NullReferenceException: Object reference not set to an instance of an object
+  at ConsoleLib.Console.ColorUtility.Init () [0x00529] in <023f07c2def6406099683e8e0d85d49e>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Loading Display.txt in 44ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Building script mods in 4110ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Applying Harmony patches 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Applying Harmony patches in 0ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: hide 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: clear 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: write 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: writeline 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: help 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: select 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: list 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+WARN - Multiple debug commands defined for: call 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Sidebar swap to left 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Starting game thread... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Data path: C:/SteamLibrary/steamapps/common/Caves of Qud/CoQ_Data/StreamingAssets\Base 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Save path: C:/Users/kacey/AppData/LocalLow/Freehold Games/CavesOfQud 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Starting core... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Started! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Cleaning up...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Starting up XRL...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Initialize Genders and Pronoun Sets...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading World Blueprints...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading Help...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Init Pathfinder...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Init Console UIs...
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Looker INIT! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+exTextureInfo must be instantiated using the ScriptableObject.CreateInstance method instead of new exTextureInfo. 
+(Filename:  Line: 682)
+
+INFO - Loading Colors.xml 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Loading Colors.xml in 49ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Loading ZoneTemplates.xml 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Loading ZoneTemplates.xml in 32ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Loading Conversations.xml 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Done Loading Conversations.xml in 52ms 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+INFO - Loading Quests.xml 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ERROR:Unknown quest manager XRL.World.QuestManagers.KaceyMod_KingsHope! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Logged exception Unknown :System.Exception: Unknown quest manager XRL.World.QuestManagers.KaceyMod_KingsHope! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ERROR - Done Loading Quests.xml in 26ms :System.NullReferenceException: Object reference not set to an instance of an object
+  at XRL.World.QuestLoader.LoadQuestsNode (System.Xml.XmlTextReader Reader) [0x0001c] in <023f07c2def6406099683e8e0d85d49e>:0 
+  at XRL.World.QuestLoader.LoadQuests () [0x0009e] in <023f07c2def6406099683e8e0d85d49e>:0 
+  at XRL.UI.Loading.LoadTask (System.String description, System.Action work, System.Boolean showToUser) [0x00032] in <023f07c2def6406099683e8e0d85d49e>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XRL.UI.Loading.LoadTask (System.String description, System.Action work, System.Boolean showToUser) [0x0007f] in <023f07c2def6406099683e8e0d85d49e>:0 
+  at XRL.World.QuestLoader.CheckInit () [0x00011] in <023f07c2def6406099683e8e0d85d49e>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <fb001e01371b4adca20013e0ac763896>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at XRL.Core.XRLCore.LoadEverything () [0x00073] in <023f07c2def6406099683e8e0d85d49e>:0 
+  at XRL.Core.XRLCore._Start () [0x0017e] in <023f07c2def6406099683e8e0d85d49e>:0 
+  at XRL.Core.XRLCore._ThreadStart () [0x0000a] in <023f07c2def6406099683e8e0d85d49e>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Initilization complete... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Exiting main thread due to stopped game thread.Stopped 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Stopping... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Shutting down Steam... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+PlayFab player id: 9ecddd4d-ec70-4f39-88b7-94853964bbef 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+The header Accept-Encoding is managed automatically, setting it may have no effect or result in unexpected behavior. 
+(Filename:  Line: 46)
+
+Sidebar swap to right 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Stopping... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Shutting down Steam... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 1a30 -> priority: 1 
+  Thread -> id: 2b70 -> priority: 1 
+  Thread -> id: a8 -> priority: 1 
+  Thread -> id: 43ac -> priority: 1 
+  Thread -> id: e90 -> priority: 1 
+  Thread -> id: 4cbc -> priority: 1 
+Stopping... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Shutting down Steam... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
