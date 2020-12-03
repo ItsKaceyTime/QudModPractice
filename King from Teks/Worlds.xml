@@ -12,7 +12,7 @@
 
         <zone Level="10" x="2" y="0" Name="abandoned campsite" ProperName="true" HasWeather="true" WindSpeed="0-60" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="50-3000">
             <builder Class="Music" Track="Overworld1" Chance="10"></builder>
-            <map FileName="Work In Proggers.rpm"></map>
+            <map FileName="KaceyMod_Campsite.rpm"></map>
         </zone>
 
         </cell>
