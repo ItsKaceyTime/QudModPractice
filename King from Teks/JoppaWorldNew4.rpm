@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map
+  Width="80"
+  Height="25">
+  <cell
+    X="14"
+    Y="20">
+    <object
+      Name="KaceyMod_Campsite">
+    </object>
+  </cell>
+</Map>
