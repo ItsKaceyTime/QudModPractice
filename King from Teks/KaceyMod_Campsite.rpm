@@ -2,6 +2,7 @@
 <Map Width="80" Height="25">
   <cell X="0" Y="0">
     <object Name="Dirty"></object>
+    <object Name="KaceyMod_TravelToCampsite"></object>
   </cell>
   <cell X="0" Y="1"></cell>
   <cell X="0" Y="2"></cell>

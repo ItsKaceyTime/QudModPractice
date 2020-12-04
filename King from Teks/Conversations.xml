@@ -8,6 +8,7 @@
       </text>
       <choice GotoID="Who">I am well. Please, tell me about yourself.</choice>
       <choice GotoID="What">What led you to Joppa?</choice>
+      <choice GotoID="QuestReturn" IfHaveQuest="King's Hope" IfNotFinishedQuest="King's Hope" IfHasBlueprint="KaceyMod_QuestGlove">I'm afraid I couldn't find any survivors, only burnt corpses and bears. Near the campsite however, I found this glove, does this mean anything to you?</choice>
       <choice GotoID="End">Live and drink, =pronouns.formalAddressTerm=.</choice>
     </node>
     <node ID="Who">
@@ -22,7 +23,7 @@ They call me King, though I am no royalty. This village offered hospitality and 
       <text>
 My closest friend and I were hired to escort a caravan through the nearby canyons to Kyakukya. We'd just passed Red Rock when we were accosted by a pair of bipedal bears. The encounter was hectic, to say the least, and I ended up wounded and separated from the rest of the group. Next thing I know, I'm being tended to here in Joppa. I'm not sure what happened to my friend or the caravan.
       </text>
-      <choice GotoID="Quest">Anyway I can help?</choice>
+      <choice GotoID="Quest" IfNotHaveQuest="King's Hope">Any way I can help?</choice>
       <choice GotoID="Who">Please tell me about yourself.</choice>
       <choice GotoID="Start">I wanted to discuss something else.</choice>
       <choice GotoID="End">Live and drink, =pronouns.formalAddressTerm=.</choice>
@@ -33,6 +34,12 @@ Why, that would be immensely appreciated. If you're certain, you'll find where w
       </text>
       <choice GotoID="End" StartQuest="King's Hope"> I will return soon.</choice>
       <choice GotoID="End">Apologies, King. I'll have to help you another time.</choice>
+    </node>
+    <node ID="QuestReturn">
+      <text>
+That... that is one of Armor's gauntlets. If you couldn't find the other, then perhaps there's hope my friend managed to survive. That's all I have to go off of for now, at the very least. Thank you, friend, for going through the effort of checking for me. Hold onto that gauntlet. I know it may look shabby, but try throwing some punches with it, you might be surprised.
+      </text>
+      <choice TakeItem="[takeall],[destroy],KaceyMod_QuestGlove" FinishQuest="King's Hope" IdGift="KaceyMod_AKGlove" GiveItem="KaceyMod_AKGlove" GotoID="End">Live and drink, King.</choice>
     </node>
   </conversation>
   <conversation ID="KaceyMod_EE">

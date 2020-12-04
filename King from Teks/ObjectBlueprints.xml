@@ -39,8 +39,24 @@
     <part Name="Render" DisplayName="Damaged Gauntlet" Tile="items/kaceymod_questglove.png" ColorString="&amp;Y" TileColor="&amp;K" DetailColor="R" RenderString="004" RenderLayer="5" />
     <part Name="Physics" Category="Quest Items" />
     <part Name="Description" Short="A steel gauntlet, showing signs of wear and tear. The second gauntlet is nowhere to be found. The letters 'AK' are engraved on the wrist." />
+    <part Name="QuestStepFinisher" Trigger="Taken" Quest="King's Hope" Step="Investigate the Campsite" />
     <tag Name="ExcludeFromDynamicEncounters" />
     <tag Name="NoSparkingQuest" />
+  </object>
+  <object Name="KaceyMod_AKGlove" Inherits="BaseCudgel">
+    <part Name="Render" DisplayName="King's Gift" Tile="items/kaceymod_questglove.png" ColorString="&amp;Y" TileColor="&amp;K" DetailColor="R" RenderString="004" />
+    <part Name="MeleeWeapon" MaxStrengthBonus="999" BaseDamage="2d3" Skill="Cudgel" Stat="Strength" />
+    <part Name="Commerce" Value="5" />
+    <part Name="Description" Short="A steel gauntlet given to you by King as thanks. The letters 'AK' are engraved on the wrist." />
+    <part Name="Metal" />
+    <tag Name="Tier" Value="3" />
+    <part Name="Physics" Weight="5" IsReal="true" />
+    <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    <tag Name="Mods" Value="None" />
+    <tag Name="WeaponUnarmed" />
+  </object>
+  <object Name="KaceyMod_TravelToCampsite" Inherits="Widget">
+    <part Name="QuestStepFinisher" Trigger="Created" Quest="King's Hope" Step="Find the Campsite" />
   </object>
   <object Name="KaceyMod_Campsite" Inherits="Terrain">
     <part Name="Render" DisplayName="BIG OLE PLACEHOLDER!!!!!" RenderString="239" ColorString="&amp;w^k" Tile="Terrain/Placeholder.png" />
