@@ -59,7 +59,7 @@
     <part Name="QuestStepFinisher" Trigger="Created" Quest="King's Hope" Step="Find the Campsite" />
   </object>
   <object Name="KaceyMod_Campsite" Inherits="Terrain">
-    <part Name="Render" DisplayName="BIG OLE PLACEHOLDER!!!!!" RenderString="239" ColorString="&amp;w^k" Tile="Terrain/Placeholder.png" />
+    <part Name="Render" DisplayName="desert canyons" RenderString="239" ColorString="&amp;w^k" Tile="Terrain/sw_canyon.bmp" />
     <part Name="TerrainTravel" Segments="1250" TravelClass="Survival_DesertCanyonSurvival" />
     <part Name="Description" Short="Long ago the rivers themselves were ravenous, and they feasted on shale and limestone before taking bloated respite in the Great Salt Sea. Now the fissure-wounds have rotted to crimson and salt." />
     <tag Name="Gender" Value="plural" />
